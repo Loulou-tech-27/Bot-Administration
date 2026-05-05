@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Louis Levesque — Prestataire indépendant en informatique. Création de sites vitrines, hébergement web sécurisé et administration systèmes & réseaux pour TPE/PME à Angers et Fontenay-le-Comte.">
+    <title>Louis Levesque — Informatique & Web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#accueil" class="nav__logo">Louis Levesque</a>
+            <ul class="nav__list" id="navList">
+                <li><a href="#services" class="nav__link">Services</a></li>
+                <li><a href="#realisations" class="nav__link">Réalisations</a></li>
+                <li><a href="#a-propos" class="nav__link">À propos</a></li>
+                <li><a href="#contact" class="nav__link nav__link--cta">Me contacter</a></li>
+            </ul>
+            <button class="nav__burger" id="burger" aria-label="Ouvrir le menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Hero -->
+        <section class="hero" id="accueil">
+            <div class="container hero__inner">
+                <span class="hero__tag">Prestataire indépendant en informatique</span>
+                <h1 class="hero__title">Votre entreprise mérite un numérique <em>qui fonctionne</em>.</h1>
+                <p class="hero__desc">Sites vitrines, hébergement sécurisé, administration systèmes & réseaux. Des solutions claires, sans jargon, pour les TPE/PME du Maine-et-Loire et de Vendée.</p>
+                <div class="hero__actions">
+                    <a href="#contact" class="btn btn--primary">Demander un devis</a>
+                    <a href="#services" class="btn btn--secondary">Voir les services</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services -->
+        <section class="section services" id="services">
+            <div class="container">
+                <h2 class="section__title">Ce que je fais pour vous</h2>
+                <p class="section__subtitle">Trois offres pensées pour les petites structures qui n'ont pas de service informatique en interne.</p>
+                <div class="services__grid">
+
+                    <article class="card">
+                        <div class="card__icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                                <rect x="3" y="3" width="18" height="14" rx="2"/>
+                                <path d="M8 21h8M12 17v4"/>
+                            </svg>
+                        </div>
+                        <h3 class="card__title">Site vitrine</h3>
+                        <p class="card__text">Un site professionnel, rapide et bien référencé. Conçu sur-mesure pour votre activité, sans template générique. Livré clé en main, facile à mettre à jour.</p>
+                        <ul class="card__list">
+                            <li>Design personnalisé</li>
+                            <li>Optimisé mobile & SEO</li>
+                            <li>Formation à la prise en main</li>
+                        </ul>
+                    </article>
+
+                    <article class="card card--featured">
+                        <div class="card__icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                                <rect x="2" y="5" width="20" height="14" rx="2"/>
+                                <path d="M12 19v2M8 21h8"/>
+                                <circle cx="12" cy="12" r="3"/>
+                            </svg>
+                        </div>
+                        <h3 class="card__title">Hébergement web sécurisé</h3>
+                        <p class="card__text">Votre site hébergé sur un serveur que je gère moi-même. Sauvegardes automatiques quotidiennes, certificat SSL, mises à jour de sécurité incluses.</p>
+                        <ul class="card__list">
+                            <li>Disponibilité 99,9 %</li>
+                            <li>Sauvegardes quotidiennes</li>
+                            <li>Support réactif</li>
+                        </ul>
+                    </article>
+
+                    <article class="card">
+                        <div class="card__icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                                <path d="M4 6h16M4 12h16M4 18h7"/>
+                                <circle cx="17" cy="18" r="3"/>
+                                <path d="m19.5 15.5-5 5"/>
+                            </svg>
+                        </div>
+                        <h3 class="card__title">Administration systèmes & réseaux</h3>
+                        <p class="card__text">Mise en place et maintenance de votre infrastructure informatique. Postes, serveurs, réseau local, messagerie, sauvegardes. Je prends en charge ce que vous ne voulez pas gérer.</p>
+                        <ul class="card__list">
+                            <li>Audit & conseil</li>
+                            <li>Installation & configuration</li>
+                            <li>Maintenance préventive</li>
+                        </ul>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Réalisations -->
+        <section class="section realisations" id="realisations">
+            <div class="container">
+                <h2 class="section__title">Réalisations</h2>
+                <p class="section__subtitle">Quelques projets récents. Chaque client a une histoire différente — voici comment j'y ai répondu.</p>
+                <div class="portfolio__grid">
+
+                    <article class="portfolio__item">
+                        <div class="portfolio__img portfolio__img--1" role="img" aria-label="Restaurant Le Moulin"></div>
+                        <div class="portfolio__info">
+                            <span class="portfolio__tag">Site vitrine</span>
+                            <h3>Restaurant Le Moulin</h3>
+                            <p>Refonte complète du site d'un restaurant familial. Réservation en ligne, menu dynamique, galerie photos. Temps de chargement divisé par 4.</p>
+                        </div>
+                    </article>
+
+                    <article class="portfolio__item">
+                        <div class="portfolio__img portfolio__img--2" role="img" aria-label="Cabinet d'ostéopathie"></div>
+                        <div class="portfolio__info">
+                            <span class="portfolio__tag">Hébergement & sécurité</span>
+                            <h3>Cabinet d'ostéopathie</h3>
+                            <p>Migration vers un hébergement sécurisé avec sauvegardes automatiques. Mise en conformité RGPD du formulaire de prise de rendez-vous.</p>
+                        </div>
+                    </article>
+
+                    <article class="portfolio__item">
+                        <div class="portfolio__img portfolio__img--3" role="img" aria-label="Artisan plombier"></div>
+                        <div class="portfolio__info">
+                            <span class="portfolio__tag">Administration réseau</span>
+                            <h3>Artisan plombier</h3>
+                            <p>Mise en place d'un réseau local sécurisé, partage de fichiers et sauvegarde automatique sur NAS. Fin des pertes de devis et factures.</p>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- À propos -->
+        <section class="section about" id="a-propos">
+            <div class="container about__inner">
+                <div class="about__text">
+                    <h2 class="section__title section__title--left">Qui je suis</h2>
+                    <p>Je m'appelle <strong>Louis Levesque</strong>, prestataire indépendant en informatique basé entre Angers et Fontenay-le-Comte. J'accompagne les petites entreprises qui n'ont ni le budget ni le besoin d'un service informatique interne, mais qui ont besoin que ça marche.</p>
+                    <p>Mon approche : des solutions simples, robustes et maintenues dans la durée. Je parle peu de technologie et beaucoup de votre problème. Vous obtenez un résultat, pas un livrable.</p>
+                    <p>Je travaille en direct avec mes clients — pas d'intermédiaire, pas de sous-traitance, vous savez toujours à qui vous avez affaire.</p>
+                    <div class="about__values">
+                        <div class="about__value">
+                            <strong>Réactivité</strong>
+                            <span>Réponse sous 4h en semaine</span>
+                        </div>
+                        <div class="about__value">
+                            <strong>Transparence</strong>
+                            <span>Devis détaillé, pas de surprise</span>
+                        </div>
+                        <div class="about__value">
+                            <strong>Durabilité</strong>
+                            <span>Disponible après la livraison</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about__visual" aria-hidden="true">
+                    <div class="about__photo-placeholder">
+                        <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="40" cy="30" r="16" stroke="#1A3A5C" stroke-width="2"/>
+                            <path d="M12 72c0-15.464 12.536-28 28-28s28 12.536 28 28" stroke="#1A3A5C" stroke-width="2"/>
+                        </svg>
+                        <span>Photo à venir</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="section contact" id="contact">
+            <div class="container contact__inner">
+                <div class="contact__text">
+                    <h2 class="section__title section__title--left">Parlons de votre projet</h2>
+                    <p>Une question, un devis, ou juste une première conversation pour voir si je peux vous aider — écrivez-moi. Je réponds sous 4 heures en semaine.</p>
+                    <div class="contact__info">
+                        <a href="mailto:louis@louloutech.fr" class="contact__link">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                                <rect x="2" y="4" width="20" height="16" rx="2"/>
+                                <path d="m2 7 10 7 10-7"/>
+                            </svg>
+                            louis@louloutech.fr
+                        </a>
+                        <a href="tel:+33600000000" class="contact__link">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.85 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.77 1.2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.96a16 16 0 0 0 6.13 6.13l1.12-1.12a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
+                            </svg>
+                            06 XX XX XX XX
+                        </a>
+                        <span class="contact__location">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                                <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                            Angers & Fontenay-le-Comte
+                        </span>
+                    </div>
+                </div>
+
+                <form class="contact__form" id="contactForm" novalidate>
+                    <div class="form__group">
+                        <label for="name">Nom / Entreprise</label>
+                        <input type="text" id="name" name="name" required autocomplete="organization" placeholder="Restaurant Le Moulin">
+                    </div>
+                    <div class="form__group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required autocomplete="email" placeholder="contact@monentreprise.fr">
+                    </div>
+                    <div class="form__group">
+                        <label for="subject">Sujet</label>
+                        <select id="subject" name="subject">
+                            <option value="">Choisir un service…</option>
+                            <option value="site">Site vitrine</option>
+                            <option value="hebergement">Hébergement web</option>
+                            <option value="sysadmin">Administration systèmes & réseaux</option>
+                            <option value="autre">Autre</option>
+                        </select>
+                    </div>
+                    <div class="form__group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="Décrivez brièvement votre besoin…"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn--primary btn--full">Envoyer le message</button>
+                    <p class="form__note">Vos données ne sont utilisées que pour répondre à votre demande.</p>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__inner">
+            <p class="footer__brand">Louis Levesque — Prestataire indépendant en informatique</p>
+            <p class="footer__legal">Micro-entreprise &middot; SIRET XXXX &middot; &copy; 2025</p>
+            <nav class="footer__nav" aria-label="Navigation pied de page">
+                <a href="#services">Services</a>
+                <a href="#realisations">Réalisations</a>
+                <a href="#a-propos">À propos</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
